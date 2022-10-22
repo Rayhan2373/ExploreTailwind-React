@@ -1,0 +1,8 @@
+.order-container{
+    width: 100%;
+    height: 100vh;
+}
+.order-calcu{
+    display: flex;
+    flex-direction: column;
+}
