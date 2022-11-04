@@ -4,6 +4,7 @@ import auth from "../../firebase.init";
 import CustomLink from "../CustomLink/CustomLink";
 import {signOut } from 'firebase/auth';
 import './Header.css'
+import { FcCollapse} from 'react-icons/fc';
 
 const Header = () => {
     const [open, setOpen] = useState(true);
@@ -18,7 +19,7 @@ const Header = () => {
                         alt=""
                     />
                     <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                        Online Shop
+                        Rayhan's fashon
                     </span>
                 </a>
                 <button
@@ -45,7 +46,8 @@ const Header = () => {
                             ></path>
                         </svg>
                     ) : (
-                        "X"
+                        
+                        <FcCollapse className="text-2xl"/>
                     )}
                 </button>
                 <div

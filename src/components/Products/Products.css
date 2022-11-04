@@ -4,6 +4,16 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+.pagination button{
+    margin-left: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.pagination .selected{
+    background-color: aquamarine;
+    color: black;
+}
 @media screen and (max-width: 400px) {
     .responsiveStyle{
         display: grid;

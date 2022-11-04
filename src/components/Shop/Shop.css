@@ -5,6 +5,13 @@
 @media screen and (max-width: 760px) {
     .shop-container{
         display: grid;
-        grid-template-columns: 4.5fr 2fr;
+        grid-template-columns: 4.5fr 3fr;
     }
 }
+@media screen and (max-width: 400px) {
+    .shop-container{
+        display: grid;
+        grid-template-columns: 1.9fr 1.8fr;
+    }
+}
+
